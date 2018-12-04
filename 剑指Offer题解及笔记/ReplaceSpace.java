@@ -4,9 +4,6 @@ package exercise.replaceSpace;
  * 题目：请实现一个函数，把字符串中的每个空格替换成"%20"。例如输入“We are happy.”，则输出“We%20are%20happy.”。
  */
 
-import org.omg.CORBA.StructMember;
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
-
 /**
  * 思路：
  * 1.O(n2)解法：遍历字符串，每一次找到空格就进行替换，空格替换成%20,
