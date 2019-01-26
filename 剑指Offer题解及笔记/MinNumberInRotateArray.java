@@ -26,7 +26,6 @@ public class MinNumberInRotateArray {
 				break;
 			}
 			mid = low + (hight - low) / 2;
-			// 有可能3个数是一样的，这样就死循环了。
 			if (array[low] == array[mid] && array[low] == array[hight]) {
 				return minInOrder(array, low, hight);
 			}
